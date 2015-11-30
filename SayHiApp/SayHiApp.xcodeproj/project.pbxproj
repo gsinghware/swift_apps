@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CBB0F801C0BEDCC00FD2C42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBB0F7F1C0BEDCC00FD2C42 /* AppDelegate.swift */; };
+		8CBB0F821C0BEDCC00FD2C42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBB0F811C0BEDCC00FD2C42 /* ViewController.swift */; };
+		8CBB0F851C0BEDCC00FD2C42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CBB0F831C0BEDCC00FD2C42 /* Main.storyboard */; };
+		8CBB0F871C0BEDCC00FD2C42 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CBB0F861C0BEDCC00FD2C42 /* Images.xcassets */; };
+		8CBB0F8A1C0BEDCC00FD2C42 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CBB0F881C0BEDCC00FD2C42 /* LaunchScreen.xib */; };
+		8CBB0F961C0BEDCC00FD2C42 /* SayHiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBB0F951C0BEDCC00FD2C42 /* SayHiAppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CBB0F901C0BEDCC00FD2C42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CBB0F721C0BEDCC00FD2C42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CBB0F791C0BEDCC00FD2C42;
+			remoteInfo = SayHiApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8CBB0F7A1C0BEDCC00FD2C42 /* SayHiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SayHiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CBB0F7E1C0BEDCC00FD2C42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CBB0F7F1C0BEDCC00FD2C42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8CBB0F811C0BEDCC00FD2C42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8CBB0F841C0BEDCC00FD2C42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CBB0F861C0BEDCC00FD2C42 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8CBB0F891C0BEDCC00FD2C42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8CBB0F8F1C0BEDCC00FD2C42 /* SayHiAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SayHiAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CBB0F941C0BEDCC00FD2C42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CBB0F951C0BEDCC00FD2C42 /* SayHiAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SayHiAppTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CBB0F771C0BEDCC00FD2C42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CBB0F8C1C0BEDCC00FD2C42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CBB0F711C0BEDCC00FD2C42 = {
+			isa = PBXGroup;
+			children = (
+				8CBB0F7C1C0BEDCC00FD2C42 /* SayHiApp */,
+				8CBB0F921C0BEDCC00FD2C42 /* SayHiAppTests */,
+				8CBB0F7B1C0BEDCC00FD2C42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CBB0F7B1C0BEDCC00FD2C42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CBB0F7A1C0BEDCC00FD2C42 /* SayHiApp.app */,
+				8CBB0F8F1C0BEDCC00FD2C42 /* SayHiAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CBB0F7C1C0BEDCC00FD2C42 /* SayHiApp */ = {
+			isa = PBXGroup;
+			children = (
+				8CBB0F7F1C0BEDCC00FD2C42 /* AppDelegate.swift */,
+				8CBB0F811C0BEDCC00FD2C42 /* ViewController.swift */,
+				8CBB0F831C0BEDCC00FD2C42 /* Main.storyboard */,
+				8CBB0F861C0BEDCC00FD2C42 /* Images.xcassets */,
+				8CBB0F881C0BEDCC00FD2C42 /* LaunchScreen.xib */,
+				8CBB0F7D1C0BEDCC00FD2C42 /* Supporting Files */,
+			);
+			path = SayHiApp;
+			sourceTree = "<group>";
+		};
+		8CBB0F7D1C0BEDCC00FD2C42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CBB0F7E1C0BEDCC00FD2C42 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8CBB0F921C0BEDCC00FD2C42 /* SayHiAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CBB0F951C0BEDCC00FD2C42 /* SayHiAppTests.swift */,
+				8CBB0F931C0BEDCC00FD2C42 /* Supporting Files */,
+			);
+			path = SayHiAppTests;
+			sourceTree = "<group>";
+		};
+		8CBB0F931C0BEDCC00FD2C42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CBB0F941C0BEDCC00FD2C42 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CBB0F791C0BEDCC00FD2C42 /* SayHiApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CBB0F991C0BEDCC00FD2C42 /* Build configuration list for PBXNativeTarget "SayHiApp" */;
+			buildPhases = (
+				8CBB0F761C0BEDCC00FD2C42 /* Sources */,
+				8CBB0F771C0BEDCC00FD2C42 /* Frameworks */,
+				8CBB0F781C0BEDCC00FD2C42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SayHiApp;
+			productName = SayHiApp;
+			productReference = 8CBB0F7A1C0BEDCC00FD2C42 /* SayHiApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CBB0F8E1C0BEDCC00FD2C42 /* SayHiAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CBB0F9C1C0BEDCC00FD2C42 /* Build configuration list for PBXNativeTarget "SayHiAppTests" */;
+			buildPhases = (
+				8CBB0F8B1C0BEDCC00FD2C42 /* Sources */,
+				8CBB0F8C1C0BEDCC00FD2C42 /* Frameworks */,
+				8CBB0F8D1C0BEDCC00FD2C42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CBB0F911C0BEDCC00FD2C42 /* PBXTargetDependency */,
+			);
+			name = SayHiAppTests;
+			productName = SayHiAppTests;
+			productReference = 8CBB0F8F1C0BEDCC00FD2C42 /* SayHiAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CBB0F721C0BEDCC00FD2C42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = SinghG;
+				TargetAttributes = {
+					8CBB0F791C0BEDCC00FD2C42 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					8CBB0F8E1C0BEDCC00FD2C42 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 8CBB0F791C0BEDCC00FD2C42;
+					};
+				};
+			};
+			buildConfigurationList = 8CBB0F751C0BEDCC00FD2C42 /* Build configuration list for PBXProject "SayHiApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CBB0F711C0BEDCC00FD2C42;
+			productRefGroup = 8CBB0F7B1C0BEDCC00FD2C42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CBB0F791C0BEDCC00FD2C42 /* SayHiApp */,
+				8CBB0F8E1C0BEDCC00FD2C42 /* SayHiAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CBB0F781C0BEDCC00FD2C42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CBB0F851C0BEDCC00FD2C42 /* Main.storyboard in Resources */,
+				8CBB0F8A1C0BEDCC00FD2C42 /* LaunchScreen.xib in Resources */,
+				8CBB0F871C0BEDCC00FD2C42 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CBB0F8D1C0BEDCC00FD2C42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CBB0F761C0BEDCC00FD2C42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CBB0F821C0BEDCC00FD2C42 /* ViewController.swift in Sources */,
+				8CBB0F801C0BEDCC00FD2C42 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CBB0F8B1C0BEDCC00FD2C42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CBB0F961C0BEDCC00FD2C42 /* SayHiAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CBB0F911C0BEDCC00FD2C42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CBB0F791C0BEDCC00FD2C42 /* SayHiApp */;
+			targetProxy = 8CBB0F901C0BEDCC00FD2C42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CBB0F831C0BEDCC00FD2C42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CBB0F841C0BEDCC00FD2C42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CBB0F881C0BEDCC00FD2C42 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CBB0F891C0BEDCC00FD2C42 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CBB0F971C0BEDCC00FD2C42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CBB0F981C0BEDCC00FD2C42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CBB0F9A1C0BEDCC00FD2C42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SayHiApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CBB0F9B1C0BEDCC00FD2C42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SayHiApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8CBB0F9D1C0BEDCC00FD2C42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SayHiAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SayHiApp.app/SayHiApp";
+			};
+			name = Debug;
+		};
+		8CBB0F9E1C0BEDCC00FD2C42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SayHiAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SayHiApp.app/SayHiApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CBB0F751C0BEDCC00FD2C42 /* Build configuration list for PBXProject "SayHiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CBB0F971C0BEDCC00FD2C42 /* Debug */,
+				8CBB0F981C0BEDCC00FD2C42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CBB0F991C0BEDCC00FD2C42 /* Build configuration list for PBXNativeTarget "SayHiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CBB0F9A1C0BEDCC00FD2C42 /* Debug */,
+				8CBB0F9B1C0BEDCC00FD2C42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8CBB0F9C1C0BEDCC00FD2C42 /* Build configuration list for PBXNativeTarget "SayHiAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CBB0F9D1C0BEDCC00FD2C42 /* Debug */,
+				8CBB0F9E1C0BEDCC00FD2C42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CBB0F721C0BEDCC00FD2C42 /* Project object */;
+}
